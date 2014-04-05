@@ -1,0 +1,150 @@
+#container {
+	margin:0px auto;
+	width:100%;
+	text-align:left;
+	overflow:hidden;
+}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+#header { height:100px; background:#6cf; margin-bottom:5px;}
+#mainContent:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#mainContent {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px 8px 8px 8px;
+    display: block;
+    margin: 0 auto;
+    padding: 9px;
+    text-align: left;
+    width: 980px;
+    margin-bottom:10px;
+}
+#main{
+	overflow: hidden;
+}
+.box2{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E8E9EB;
+    float: left;
+    height: 112px;
+    margin: 10px 11px 0 5px;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    width: 294px;	
+}
+.box2:hover{
+	background: none repeat scroll 0 0 #EAEAEA;
+}
+.box2 dt {
+    float: left;
+    height: 114px;
+    overflow: hidden;
+    position: relative;
+    width: 129px;
+}
+.box2 img {
+    height: 144px;
+    width: 129px;
+}
+.box2 dd {
+    float: left;
+    width: 155px;
+    margin-left:10px;
+}
+.box2 dd span {
+    color: #888888;
+    display: block;
+    padding-top: 5px;
+}
+.box2 dd b {
+    display: inline-block;
+}
+.box2 dd b a {
+    color: #282828;
+    font: bold 14px/30px Arial;
+    text-decoration: none;
+}
+.box2 dd b a:hover {
+    color: #FF6589;
+}
+.m_dzh {
+    background: url("../images/3_body_bj_03.gif") no-repeat scroll -321px -494px transparent;
+    color: #888888;
+    cursor: pointer;
+    display: inline-block;
+    height: 27px;
+    line-height: 26px;
+    margin-top: 15px;
+    padding-left: 30px;
+    width: 46px;
+}
+.m_dzh:hover {
+    background: url("../images/3_body_bj_03.gif") no-repeat scroll -321px -529px transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#menu{
+    background: #FF6086;
+    background: url("../images/head_banner_bj.png") no-repeat scroll 0 0 transparent;
+    border-radius: 4px 4px 4px 4px;
+    clear: both;
+    color: #333333;
+    font: bold 12px/30px Arial;
+    width:980px;
+    height: 85px;
+    padding: 0 10px;
+    text-indent: 5px;
+    margin-bottom:5px;
+    margin: 4px auto 4px;
+}
+
+
+.site-footer {
+    border-top: 1px solid #DDDDDD;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+    width: 1000px;
+}
+.site-footer ul.link {
+    float: right;
+    margin-right: -10px;
+}
+.site-footer ul.link li {
+    display: inline-block;
+    margin-right: 1ex;
+}
+.site-footer ul.link li a {
+    color:#09c;
+}
+.site-footer ul.link li:after {
+    color: #AAAAAA;
+    content: " |";
+}
+.site-footer .main {
+    overflow: hidden;
+}
+.site-footer .haoes {
+    background: none repeat scroll 0 0 #F7F7F7;
+    clear: both;
+    color: #888888;
+    font-family: tahoma,mingliu;
+    font-size: 11px;
+    margin-top: 15px;
+    padding: 8px;
+}
