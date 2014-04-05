@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+    <!-- Action -->
+    <bean id="loginAction" name="loginAction" class="com.sfv.action.LoginAction">
+        <property name="userService">
+            <ref bean="userService"/>
+        </property>
+    </bean>
+    <bean id="userAction" name="userAction" class="com.sfv.action.UserAction">
+        <property name="userService">
+            <ref bean="userService"/>
+        </property>
+    </bean>
+    <bean name="photoAction" class="com.sfv.action.photo.PhotoAction">
+        <property name="photoService">
+            <ref bean="photoService"/>
+        </property>
+        <property name="userService">
+            <ref bean="userService"/>
+        </property>
+    </bean>
+    <bean id="signAction" name="signAction" class="com.sfv.action.SignAction">
+        <property name="signService">
+            <ref bean="signService"/>
+        </property>
+    </bean>
+    <bean id="chatAction" name="chatAction" class="com.sfv.action.ChatAction">
+        <property name="userService">
+            <ref bean="userService"/>
+        </property>
+    </bean>
+</beans>
