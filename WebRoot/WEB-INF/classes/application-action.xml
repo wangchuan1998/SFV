@@ -10,6 +10,11 @@
             <ref bean="userService"/>
         </property>
     </bean>
+    <bean id="adminLoginAction" name="adminLoginAction" class="com.sfv.action.cms.LoginAction">
+        <property name="userService">
+            <ref bean="userService"/>
+        </property>
+    </bean>
     <bean id="userAction" name="userAction" class="com.sfv.action.UserAction">
         <property name="userService">
             <ref bean="userService"/>

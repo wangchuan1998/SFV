@@ -14,7 +14,7 @@ import com.sfv.entitybean.system.UserRef;
 public class UserDaoImpl extends BaseDao implements UserDao{
 	
 	public List<SystemUser> queryByCondiction(Map values) {
-		return this.getHibernateTemplate().find("from SystemUser");
+		return this.getHibernateTemplate().find("from SystemUser where email!='admin'");
 	}
 	
 	public List<SystemUser> queryNearby(Map<String, String> values) {

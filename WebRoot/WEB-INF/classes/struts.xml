@@ -9,8 +9,10 @@
 	<constant name="struts.objectFactory" value="spring"></constant>
 	<constant name="struts.locale" value="UTF-8"/>
 	<constant name="struts.i18n.encoding" value="UTF-8"/>
-	<constant name="struts.custom.i18n.resources" value="messages_zh_CN" />
 	<constant name="struts.custom.i18n.resources" value="Application" />
+	<include file="/struts-cms.xml" />
+ 
+	
 	
 
 	<!-- 默认配置 -->

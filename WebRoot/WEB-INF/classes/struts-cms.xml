@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="cmsDefault"  namespace="/" extends="default">
+		<!-- 管理员登录 -->
+        <action name="adminLogin" class="adminLoginAction" method="adminLogin">
+            <result name="success">/admin/index.jsp</result>
+        </action>
+        <!-- 用户列表 -->
+        <action name="userlist" class="userAction" method="userlist">
+        	<result name="success">/admin/user/userlist.jsp</result>
+        </action>
+    </package>
+    
+</struts>
+

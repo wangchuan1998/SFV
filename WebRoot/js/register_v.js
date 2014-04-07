@@ -197,7 +197,7 @@ var register = {
 				data:$('#reg_box').serialize(),
 				type: 'POST',
 				success:function(json){
-					window.location = "mypage!index.action";
+					window.location = "index.do";
 				},
 				error:function(){
 				

@@ -37,6 +37,12 @@ public class UserAction extends BaseAction{
 		return SUCCESS;
 	}
 	
+	//所有用户列表 
+	public String userlist()throws Exception {
+		friends = userService.queryByCondiction(null);
+		return SUCCESS;
+	}
+	
 	//查看其他人个人资料
 	public String viewUser()throws Exception {
 		user = userService.getUserById(userid);

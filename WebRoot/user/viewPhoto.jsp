@@ -79,11 +79,5 @@ h1{height:50px;line-height:50px;font-size:22px;font-weight:normal;font-family:"M
   <%@ include file="../layout/footer.jsp" %>
 </div>
 
-<script type="text/javascript">
-$(function() {
-	
-});
-
-</script>
 </body>
 </html>
